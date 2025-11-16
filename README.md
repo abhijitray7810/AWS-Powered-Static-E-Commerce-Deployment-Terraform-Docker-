@@ -54,51 +54,7 @@ https://your-domain.com
 
 ### High-Level Architecture Diagram
 
-```
-                                    ┌─────────────────┐
-                                    │   End Users     │
-                                    │   (Worldwide)   │
-                                    └────────┬────────┘
-                                             │
-                                    ┌────────▼────────┐
-                                    │   Route 53      │
-                                    │  (DNS Service)  │
-                                    └────────┬────────┘
-                                             │
-                      ┌──────────────────────┼──────────────────────┐
-                      │                      │                      │
-              ┌───────▼────────┐    ┌───────▼────────┐    ┌───────▼────────┐
-              │  Edge Location │    │  Edge Location │    │  Edge Location │
-              │   (US-East)    │    │   (EU-West)    │    │   (AP-South)   │
-              └───────┬────────┘    └───────┬────────┘    └───────┬────────┘
-                      │                      │                      │
-                      └──────────────────────┼──────────────────────┘
-                                             │
-                                    ┌────────▼────────┐
-                                    │   CloudFront    │
-                                    │  (CDN + SSL)    │
-                                    └────────┬────────┘
-                                             │
-                                    ┌────────▼────────┐
-                                    │   ACM (SSL)     │
-                                    │  Certificate    │
-                                    └────────┬────────┘
-                                             │
-                                    ┌────────▼────────┐
-                                    │   S3 Bucket     │
-                                    │ (Origin Server) │
-                                    │  + Website      │
-                                    └─────────────────┘
-
-═══════════════════════════════════════════════════════════════════
-
-                        Infrastructure Layer
-
-        ┌──────────────┐              ┌──────────────┐
-        │   Terraform  │◄─────────────┤    Docker    │
-        │     (IaC)    │              │ (Container)  │
-        └──────────────┘              └──────────────┘
-```
+![image](https://github.com/abhijitray7810/AWS-Powered-Static-E-Commerce-Deployment-Terraform-Docker-/blob/88ba67261b08bf556da2780439449322b8ab075b/Architecture/diagram.png)
 
 ### Component Details
 
