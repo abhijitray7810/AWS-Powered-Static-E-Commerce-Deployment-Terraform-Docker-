@@ -52,8 +52,22 @@ https://e-commerce-site-441ce407d1938ff7.s3-website-sa-east-1.amazonaws.com
 ## 🏗️ Architecture
 
 ### High-Level Architecture Diagram
-
 ![image](https://github.com/abhijitray7810/AWS-Powered-Static-E-Commerce-Deployment-Terraform-Docker-/blob/88ba67261b08bf556da2780439449322b8ab075b/Architecture/diagram.png)
+
+### Project Code Image
+![image](https://github.com/abhijitray7810/AWS-Powered-Static-E-Commerce-Deployment-Terraform-Docker/blob/1fafdcf3e364f3d7dfbccdd45c5d0e2129ae66a1/Architecture/Code.png)
+
+### project Output Image Apply-1
+![image](https://github.com/abhijitray7810/AWS-Powered-Static-E-Commerce-Deployment-Terraform-Docker/blob/1fafdcf3e364f3d7dfbccdd45c5d0e2129ae66a1/Architecture/Apply-1.png)
+
+### project Output Image Apply-2
+![iamge](https://github.com/abhijitray7810/AWS-Powered-Static-E-Commerce-Deployment-Terraform-Docker/blob/1fafdcf3e364f3d7dfbccdd45c5d0e2129ae66a1/Architecture/Apply-2.png)
+
+### Website Image -1
+![image](https://github.com/abhijitray7810/AWS-Powered-Static-E-Commerce-Deployment-Terraform-Docker/blob/1fafdcf3e364f3d7dfbccdd45c5d0e2129ae66a1/Architecture/Website-1.png)
+
+### Website Image -2
+![iamge](https://github.com/abhijitray7810/AWS-Powered-Static-E-Commerce-Deployment-Terraform-Docker/blob/1fafdcf3e364f3d7dfbccdd45c5d0e2129ae66a1/Architecture/Website-2.png)
 
 ### Component Details
 
