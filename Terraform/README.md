@@ -149,36 +149,8 @@ No manual uploads required—Terraform handles everything.
 
 ## 📷 **Architecture Diagram (ASCII)**
 
-```
-                +----------------------+
-                |      Developer       |
-                |  (Docker Local Run)  |
-                +----------+-----------+
-                           |
-                           v
-                 docker build/run
-                           |
-                           v
-                +----------------------+
-                |   Static Website     |
-                |   HTML/CSS/JS Files  |
-                +----------+-----------+
-                           |
-                           v
-              terraform init/plan/apply
-                           |
-                           v
-        +---------------------------------------+
-        |                 AWS S3                |
-        |  - Static Website Hosting             |
-        |  - Bucket Policy & Public Access      |
-        |  - Files Uploaded via Terraform       |
-        +--------------------+------------------+
-                             |
-                             v
-              Public Website URL (S3 Hosting)
-```
 
+![image](https://github.com/abhijitray7810/AWS-Powered-Static-E-Commerce-Deployment-Terraform-Docker-/blob/579152910837109d295bf7825188e3b57862b359/Architecture/E-commerce%20Deployment%20Workflow%20Diagram.png)
 ---
 
 ## 📌 **Future Enhancements**
